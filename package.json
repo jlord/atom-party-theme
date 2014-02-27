@@ -2,9 +2,8 @@
   "name": "jlord",
   "theme": "syntax",
   "version": "0.0.0",
-  "private": true,
   "description": "A short description of your theme",
-  "repository": "https://github.com/atom/jlord",
+  "repository": "https://github.com/jlord/jlord-atom-theme",
   "licenses": [
     {
       "type": "Apache",

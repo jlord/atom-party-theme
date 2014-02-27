@@ -6,8 +6,8 @@
 @import "colors";
 
 .editor-colors {
-  background-color: @base03;
-  color: @base0;
+  background-color: @white;
+  color: @base01;
 }
 
 .editor {
@@ -17,7 +17,7 @@
   }
 
   .gutter {
-    background-color: @red;
+    background-color: @white;
   }
 
   .gutter .line-number {
@@ -30,36 +30,53 @@
     color: @magenta;
   }
 
+  .gutter .line-number.git-line-modified {
+    border-left: 2px solid @brightcyan;
+    padding-left: calc(0.5em - 2px);
+  }
+
+  .gutter .line-number.git-line-added {
+    border-left: 2px solid @magenta;
+    padding-left: calc(0.5em - 2px);
+  }
+
+  .gutter .line-number.git-line-removed {
+    border-left: 2px solid @red;
+    padding-left: calc(0.5em - 2px);
+  }
+
   .cursor {
-    border-color: @base3;
+    border-color: @red;
   }
 
   .selection .region {
-    background-color: @base01;
+    background-color: @neonyellow;
     color: @base03;
   }
 
   .line-number.cursor-line-no-selection {
-    background-color: @base01;
+    background-color: @neonyellow;
   }
 }
 
 .bracket-matcher {
-  background-color: @base1;
+  background-color: @neonyellow;
   opacity: 0.7;
 }
 
 .comment {
-  color: @base01;
+  color: @grey;
   font-style: italic;
 }
 
 .entity {
-  color: @yellow;
+  color: @blue;
+  font-weight: bold;
 }
 
 .keyword {
-  color: @green;
+  color: @navy;
+  font-weight: bold;
 }
 
 .storage.type {
@@ -67,24 +84,24 @@
 }
 
 .constant {
-  color: @yellow;
+  color: @magenta;
 
   &.numeric,
   &.boolean {
-    color: @cyan;
+    color: @violet;
   }
 }
 
 .variable {
-  color: @blue;
+  color: @violet;
 }
 
 .delimiter, .brace {
-  color: @red;
+  color: @navy;
 }
 
 .delimiter.period {
-  color: @green;
+  color: @navy;
 }
 
 .invalid.deprecated {
