@@ -1,4 +1,3 @@
-jlord-atom-theme
-================
+## jlord Theme
 
-That time when you redo something because you forgot to back it up and then your computer died
+A short description of your theme.

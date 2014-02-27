@@ -1,0 +1,17 @@
+{
+  "name": "jlord",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A short description of your theme",
+  "repository": "https://github.com/atom/jlord",
+  "licenses": [
+    {
+      "type": "Apache",
+      "url": "http://github.com/atom/jlord/raw/master/LICENSE.md"
+    }
+  ],
+  "engines": {
+    "atom": ">0.39.0"
+  }
+}
