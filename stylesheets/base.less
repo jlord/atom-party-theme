@@ -6,14 +6,15 @@
 @import "colors";
 
 .editor-colors {
-  background-color: #F3F3F3;
+  background-color: #fff;
   color: @base01;
+  margin-top: 8px;
 }
 
 .editor {
   .invisible-character,
   .indent-guide {
-    color: #fff;
+    color: #fafafa;
   }
 
   .gutter {
@@ -94,6 +95,15 @@
 
 .storage.type {
   color: @green;
+}
+
+.storage.modifier.js {
+  color: @violet;
+  font-weight: bold;
+}
+
+.support.class.js {
+  color: @violet;
 }
 
 .constant {
