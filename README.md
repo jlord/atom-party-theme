@@ -1,16 +1,7 @@
-# My Atom Theme  
+# My Atom Theme :heart:
 
-Because I made it once, didn't commit it and then my computer died*. **Kids, always commit what you write in a text-editor.**
+Light 80's Neon Party!
 
-I'm making it again and backing it up.
+![img](http://f.cl.ly/items/2A0u2T0f200f2U0Y3B3l/Screen%20Shot%202014-05-24%20at%2012.47.10%20PM.png)
 
-At least I boasted about the PARTY STYLEZ in chat and have this memory:
-
-![img](http://f.cl.ly/items/0n3a3J1k1z0u0j3o1f2D/atomparty.png)
-
----
-**This is not done yet, so don't try and use it!**
-
----
-
-*from injuries sustained from a glass of sparkling water
+I've been scrappily hacking on this so it's not polished, that's why I've got it here and not also on Atom's APM. If I clean it up, I'll put it there, but you can still learn from or use it if ya want!
