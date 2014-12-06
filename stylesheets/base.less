@@ -60,7 +60,7 @@
     background-color: @neonyellow;
   }
   .markup.raw.gfm, .markup.code.js.gfm {
-    background-color: #fff;
+    // background-color: #fff;
   }
   .markup.italic.gfm {
     font-style: italic;
@@ -84,9 +84,15 @@
 }
 
 .entity {
-  color: @blue;
+  color: @red;
   font-weight: bold;
 }
+
+.punctuation.definition.parameters.begin.js,
+.punctuation.definition.parameters.end.js {
+  color: @red;
+}
+
 
 .keyword {
   color: @navy;
@@ -103,15 +109,15 @@
 }
 
 .support.class.js {
-  color: @violet;
+  color: #FF8845;
 }
 
 .constant {
-  color: @magenta;
+  color: #FFAB69;
 
   &.numeric,
   &.boolean {
-    color: @violet;
+    color: #FF8845;
   }
 }
 
@@ -120,7 +126,7 @@
 }
 
 .delimiter, .brace {
-  color: @navy;
+  color: @green;
 }
 
 .delimiter.period {
@@ -151,4 +157,12 @@
       color: @red;
     }
   }
+}
+
+.support.function.js {
+  color: @brightcyan;
+}
+
+.entity.name.type.object.js {
+  color: @brightcyan;
 }
